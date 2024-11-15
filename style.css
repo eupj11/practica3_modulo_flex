@@ -16,20 +16,21 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 40px;
+    padding: 10px 40px 0 40px;
 }
 
 header img {
     width: 50px;
     height: 50px;
-
+    
 }
 
 
 header > nav {
     flex-grow: 1;
     display: flex;
-    background-color: burlywood;
+
+    background-color: #f0f0f0;
     justify-content: center;
     align-items: center;
 }
@@ -50,6 +51,52 @@ header > nav > ul > li > a{
     text-decoration: none;
 }
 
+
+/* section hero */
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    margin: 0 40px 0 40px;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+#text_hero {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+ 
+
+}
+
+
+#text_hero p {
+    align-self: self-start;
+    margin: 20px 0 20px 0;
+}
+
+#text_hero button {
+    background-color: #819faf;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+   
+}
+
+#img_hero {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
 
 
 /* móvil */
@@ -85,5 +132,21 @@ header > nav > ul > li > a{
         font-size: 1.5em;
 
     }
+
+
+/* section hero */
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 20px;
+    background-color: #f0f0f0;
+}
+
+#img_hero {
+    margin-top: 55px;
+}
 
 }
